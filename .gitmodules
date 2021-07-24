@@ -4,3 +4,6 @@
 [submodule "Assets/Module-Tools"]
 	path = Assets/Module-Tools
 	url = https://github.com/Volcanic-Pig/Module-Tools.git
+[submodule "Assets/Module-MobileTemplateAssets"]
+	path = Assets/Module-MobileTemplateAssets
+	url = https://github.com/Volcanic-Pig/Module-MobileTemplateAssets.git

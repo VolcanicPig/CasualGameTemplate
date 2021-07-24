@@ -401,7 +401,7 @@ MonoBehaviour:
   dontDestroyOnLoad: 1
   gameScene: GameScene
   uiScene: UiScene
-  playerPrefab: {fileID: 0}
+  playerPrefab: {fileID: 6753293721986850795, guid: 681ab2aed6ffe2e45a140d048b048b3e, type: 3}
 --- !u!4 &1836615441
 Transform:
   m_ObjectHideFlags: 0
