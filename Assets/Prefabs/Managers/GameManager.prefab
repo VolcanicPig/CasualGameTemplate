@@ -46,4 +46,4 @@ MonoBehaviour:
   dontDestroyOnLoad: 1
   gameScene: GameScene
   uiScene: UiScene
-  playerPrefab: {fileID: 6753293721986850795, guid: 681ab2aed6ffe2e45a140d048b048b3e, type: 3}
+  playerPrefab: {fileID: 6675593442543428645, guid: 32fd6df2f4d664349ac0fc38d8357635, type: 3}
