@@ -7,16 +7,9 @@ namespace Game
 {
     public class PlayerRotateMovement : PlayerMovement
     {
-        [SerializeField] private float rotateSpeed; 
+        [SerializeField] private float rotateSpeed;
 
-        private GestureController _gestures;
-        
-        private void Start() 
-        {
-            _gestures = GestureController.Instance; 
-        }
-        
-        private void Update()
+        public override void Update()
         {
             HandleRotation();
         }

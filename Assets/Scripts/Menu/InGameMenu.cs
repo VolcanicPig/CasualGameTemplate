@@ -20,7 +20,7 @@ namespace Game
             GameManager.OnCurrencyChanged -= OnCurrencyUpdated;
         }
 
-        private void OnCurrencyUpdated(int newValue)
+        private void OnCurrencyUpdated(int oldValue, int newValue)
         {
             currencyText.text = newValue.ToString();
         }
