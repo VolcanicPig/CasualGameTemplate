@@ -54,7 +54,9 @@ namespace Game
             }
 #endif
             List<Level> availableLevels = new List<Level>(levelPrefabs); 
-            if(lastlevelIndex != null) availableLevels.Remove(lastlevelIndex); 
+            
+            if(lastlevelIndex != null && availableLevels.Count > 1) 
+                availableLevels.Remove(lastlevelIndex); 
 
 
             if(level >= levelPrefabs.Length)
