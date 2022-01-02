@@ -16,5 +16,11 @@ namespace Game
             }
 #endif    
         }
+        
+        protected override void SpawnPlayer()
+        {
+            base.SpawnPlayer(); 
+            CameraController.Instance.SetFollowTarget(GetCurrentPlayer.transform);
+        }
     }
 }
