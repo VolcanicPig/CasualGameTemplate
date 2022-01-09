@@ -40,7 +40,7 @@ namespace Game
             bool enable = !settingsButtonsCanvas.interactable;
             settingsButtonsCanvas.interactable = enable;
             settingsButtonsCanvas.blocksRaycasts = enable;
-            settingsButtonsCanvas.DOFade(enable ? 1 : 0, .5f); 
+            settingsButtonsCanvas.DOFade(enable ? 1 : 0, .2f); 
         }
         
         public void ToggleHapticsPressed()

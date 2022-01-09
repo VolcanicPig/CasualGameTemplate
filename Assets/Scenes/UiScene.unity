@@ -234,9 +234,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -585}
+  m_AnchoredPosition: {x: 125.020065, y: -710.0028}
   m_SizeDelta: {x: 250, y: 250}
-  m_Pivot: {x: 0, y: 1}
+  m_Pivot: {x: 0.4999999, y: 0.50000006}
 --- !u!114 &226702517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 226702515}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Script: {fileID: 11500000, guid: ed02f633b28d5bb47ba0e848d3519790, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
@@ -293,6 +293,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  pressSuccessSound: buttonPress_success
+  pressFailSound: buttonPress_fail
+  pressHapticsSuccess: 0
+  pressHapticsFail: 2
+  doPressAnimation: 1
+  animationPunch: {x: -0.2, y: -0.2, z: -0.2}
 --- !u!114 &226702518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -848,9 +854,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -288}
+  m_AnchoredPosition: {x: 125.008896, y: -413.00543}
   m_SizeDelta: {x: 250, y: 250}
-  m_Pivot: {x: 0, y: 1}
+  m_Pivot: {x: 0.49999997, y: 0.5000002}
 --- !u!114 &1043447987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -860,7 +866,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1043447985}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Script: {fileID: 11500000, guid: ed02f633b28d5bb47ba0e848d3519790, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
@@ -907,6 +913,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  pressSuccessSound: buttonPress_success
+  pressFailSound: buttonPress_fail
+  pressHapticsSuccess: 0
+  pressHapticsFail: 2
+  doPressAnimation: 1
+  animationPunch: {x: -0.2, y: -0.2, z: -0.2}
 --- !u!114 &1043447988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1052,9 +1064,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 291}
+  m_AnchoredPosition: {x: 0, y: 640}
   m_SizeDelta: {x: 721.4623, y: 332.0504}
-  m_Pivot: {x: 0.5, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1236506404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1064,7 +1076,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1236506402}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Script: {fileID: 11500000, guid: ed02f633b28d5bb47ba0e848d3519790, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
@@ -1100,7 +1112,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 924535335}
-        m_TargetAssemblyTypeName: VolcanicPig.Mobile.Ui.EndGameMenu, Assembly-CSharp
+        m_TargetAssemblyTypeName: Game.EndGameMenu, Assembly-CSharp
         m_MethodName: RestartButtonPressed
         m_Mode: 1
         m_Arguments:
@@ -1111,6 +1123,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  pressSuccessSound: buttonPress_success
+  pressFailSound: buttonPress_fail
+  pressHapticsSuccess: 0
+  pressHapticsFail: 2
+  doPressAnimation: 1
+  animationPunch: {x: -0.2, y: -0.2, z: -0.2}
 --- !u!114 &1236506405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1739,9 +1757,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 127, y: -133}
+  m_AnchoredPosition: {x: 252.00696, y: -258.0077}
   m_SizeDelta: {x: 250, y: 250}
-  m_Pivot: {x: 0, y: 1}
+  m_Pivot: {x: 0.4999997, y: 0.4999992}
 --- !u!114 &1511576298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1751,7 +1769,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1511576296}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Script: {fileID: 11500000, guid: ed02f633b28d5bb47ba0e848d3519790, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
@@ -1798,6 +1816,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  pressSuccessSound: buttonPress_success
+  pressFailSound: buttonPress_fail
+  pressHapticsSuccess: 0
+  pressHapticsFail: 2
+  doPressAnimation: 1
+  animationPunch: {x: -0.2, y: -0.2, z: -0.2}
 --- !u!114 &1511576299
 MonoBehaviour:
   m_ObjectHideFlags: 0

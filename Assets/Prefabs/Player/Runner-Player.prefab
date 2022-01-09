@@ -62,7 +62,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deltaMultiplier: 500
-  forwardsSpeed: 3
+  forwardsSpeed: 6
   sideSpeed: 50
   minYRot: -45
   maxYRot: 45

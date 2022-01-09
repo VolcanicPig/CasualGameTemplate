@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Assets/Module-CasualMobileTemplate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Assets/Module-MobileTemplateAssets" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Assets/Module-Tools" vcs="Git" />
   </component>
 </project>
