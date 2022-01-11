@@ -10,13 +10,13 @@ namespace Game
         [Header("References")]
         [SerializeField] private Animator anim;
 
-        private PlayerMovement _movement;
+        private BasePlayerMovement _movement;
         
         private static readonly int Running = Animator.StringToHash("Running");
 
         private void Start()
         {
-            _movement = GetComponent<PlayerMovement>(); 
+            _movement = GetComponent<BasePlayerMovement>(); 
         }
 
         private void Update()
