@@ -10,9 +10,8 @@ namespace Game
     {
         [SerializeField] protected float forwardsSpeed; 
         
-        public bool IsMoving => isMoving; 
+        public bool IsMoving { get; protected set; } 
         
-        protected bool isMoving;
         protected bool automatedMovementActive;
         protected bool canMoveForwards;
         protected bool canMoveSideways;

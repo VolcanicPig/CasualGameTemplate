@@ -42,11 +42,11 @@ namespace Game
             if (canMoveForwards)
             {
                 transform.position += transform.forward * forwardsSpeed * Time.deltaTime;
-                isMoving = true; 
+                IsMoving = true; 
             }
             else
             {
-                isMoving = false;  
+                IsMoving = false;  
             }
         }
     }
