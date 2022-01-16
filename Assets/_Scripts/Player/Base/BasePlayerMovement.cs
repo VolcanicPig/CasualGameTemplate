@@ -8,9 +8,15 @@ namespace Game
 {
     public abstract class BasePlayerMovement : MonoBehaviour
     {
-        [SerializeField] protected float forwardsSpeed; 
+        [SerializeField] protected float forwardsSpeed;
+
+        [Header("Grounded Check")] 
+        [SerializeField] private Transform feetPosPosition;
+        [SerializeField] private float groundedCheckRadius;
+        [SerializeField] private LayerMask groundedLayer; 
         
         public bool IsMoving { get; protected set; } 
+        public bool IsGrounded { get; private set; }
         
         protected bool automatedMovementActive;
         protected bool canMoveForwards;
@@ -27,11 +33,21 @@ namespace Game
             rb = GetComponent<Rigidbody>();
             player = GetComponent<BasePlayer>(); 
         }
-        
+
+        protected virtual void Update()
+        {
+            CheckGrounded();
+        }
+
         public void SetMovementEnabled(bool enabled)
         {
             canMoveForwards = enabled;
             canMoveSideways = enabled;
+        }
+        
+        private void CheckGrounded()
+        {
+            IsGrounded = Physics.OverlapSphere(feetPosPosition.position, groundedCheckRadius, groundedLayer).Length != 0; 
         }
         
         public void AutomatedMovementToPosition(Transform target, Action onComplete)

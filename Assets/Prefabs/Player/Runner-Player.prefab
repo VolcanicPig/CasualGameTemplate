@@ -61,9 +61,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c85b1da21131124e8dcc00378d7a022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deltaMultiplier: 500
   forwardsSpeed: 6
-  sideSpeed: 50
+  feetPosPosition: {fileID: 6675593442543429080}
+  groundedCheckRadius: 0.2
+  groundedLayer:
+    serializedVersion: 2
+    m_Bits: 1
+  deltaMultiplier: 500
+  topSpeed: 10
+  topSpeedLeeway: 0.5
+  acceleration: 5
+  deceleration: 5
+  rotateSpeed: 50
   minYRot: -45
   maxYRot: 45
 --- !u!114 &6675593442543429086

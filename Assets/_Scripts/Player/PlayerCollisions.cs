@@ -9,7 +9,7 @@ namespace Game
     public class PlayerCollisions : MonoBehaviour
     {
         private Player _player;
-        private PlayerMovement _movement;
+        private PlayerSlideMovement _movement;
 		
         private const string _kEnd = "End";
         private const string _kCollectable = "Collectable"; 
@@ -17,7 +17,7 @@ namespace Game
         private void Start()
         {
             _player = GetComponent<Player>(); 
-            _movement = GetComponent<PlayerMovement>();
+            _movement = GetComponent<PlayerSlideMovement>();
         }
 
         private void OnTriggerEnter(Collider other) 
